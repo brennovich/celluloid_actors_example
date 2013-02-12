@@ -1,0 +1,26 @@
+GEM
+  remote: http://rubygems.org/
+  specs:
+    celluloid (0.12.4)
+      facter (>= 1.6.12)
+      timers (>= 1.0.0)
+    diff-lcs (1.1.3)
+    facter (1.6.17)
+    rspec (2.12.0)
+      rspec-core (~> 2.12.0)
+      rspec-expectations (~> 2.12.0)
+      rspec-mocks (~> 2.12.0)
+    rspec-core (2.12.2)
+    rspec-expectations (2.12.1)
+      diff-lcs (~> 1.1.3)
+    rspec-mocks (2.12.2)
+    testing-celluloid (0.0.2)
+    timers (1.1.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  celluloid
+  rspec
+  testing-celluloid
